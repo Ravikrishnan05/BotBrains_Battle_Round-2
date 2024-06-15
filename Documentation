@@ -1,0 +1,19 @@
+I will be dividing this project into 3 parts 
+
+1>Mechanical design 
+Frame:acrylic because of its Lightweight and High strength
+Motors:Should have moderate torque to maintain stability
+Wheels:Should be of moderate radius
+
+2>Electronics
+Microcontroller:ESP32 as it has wifi module in it.Though that we can have an IOT network
+Battery:Li ion battery 
+Motor with encoder:we will have to apply PID algorithm so we must need feedback through encoders
+Sensor:IMU which has gyroscope and accelerometer to maintain balance ;
+        Gps to get coordinates and do mapping 
+
+3>Programming 
+we will be needing jetson nano,or orion to do processing.
+Because we have to do path planning and mapping.
+
+
